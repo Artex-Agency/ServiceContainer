@@ -1,0 +1,70 @@
+{
+    "name": "artex/di-container",
+    "description": "A lightweight, PSR-11 compliant dependency injection and service container library with advanced features like tagged services, lifecycle hooks, and deferred services.",
+    "type": "library",
+    "keywords": [
+        "PHP",
+        "PSR-11",
+        "Service Container",
+        "Dependency Injection",
+        "DI Container",
+        "Tagged Services",
+        "Lifecycle Hooks",
+        "Artex-Software",
+        "Artex-Agency",
+        "Artex"
+    ],
+    "homepage": "https://github.com/artex-agency/di-container",
+    "license":  "Apache-2.0",
+    "authors": [
+        {
+            "name":     "James Gober",
+            "email":    "me@jamesgober.com",
+            "homepage": "https://jamesgober.com",
+            "role":     "Developer"
+        },
+        {
+            "name":     "Artex Software",
+            "homepage": "https://artexsoftware.com",
+            "role":     "Sponsor"
+        },
+        {
+            "name":     "Artex Agency",
+            "homepage": "https://artexagency.com",
+            "role":     "Parent Organization"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/artex-agency/di-container/issues",
+        "docs":   "https://artexsoftware.com/",
+        "email":  "support@artexsoftware.com"
+    },
+    "require": {
+        "php": "^8.1",
+        "psr/container": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artex\\DIContainer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        },
+        "classmap": [
+            "tests/fixtures/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit --colors=always",
+        "lint": "php -l src && php -l tests",
+        "check": [
+            "@lint",
+            "@test"
+        ]
+    }
+}
