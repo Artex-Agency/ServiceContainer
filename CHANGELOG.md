@@ -22,7 +22,7 @@ All notable changes to this project will be documented here. This changelog foll
 
 &nbsp;
 
-## [1.0.0-RC.9] - 2025-01-14
+## [1.0.0] - 2025-01-14
 
 ### Added
 - **Middleware Support**: Services now support pre- and post-instantiation hooks for advanced lifecycle management.
@@ -58,12 +58,11 @@ All notable changes to this project will be documented here. This changelog foll
 
 <!-- #########  PRERELEASE
 ---------------------------------------------------------------------->
-[1.0.0-RC.3]:   https://github.com/artex-agency/di-container/compare/v1.0.0-RC.#...v1.0.0-RC6
-[1.0.0-RC.9]:   https://github.com/artex-agency/di-container/compare/v1.0.0-RC.9...v1.0.0-RC3
+[1.0.0-RC.3]:   https://github.com/artex-agency/di-container/compare/v1.0.0-RC.3...HEAD
 
 <!--##########  STABLE
 ---------------------------------------------------------------------->
-[1.0.0-RC.18]:  https://github.com/artex-agency/di-container/compare/v1.0.0-RC.18`...v1.0.0-RC9
+[1.0.0]:  https://github.com/artex-agency/di-container/compare/v1.0.0-RC.3...v1.0.0
 
 <!-- ########  UNRELEASED [ temp container ]
 ---------------------------------------------------------------------->
